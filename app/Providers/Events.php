@@ -18,7 +18,7 @@ class Events extends ServiceProvider
      * @var array
      */
     protected $packages = [
-        // 'Example' => __DIR__.'/../Example/Events',
+        'Order' => __DIR__.'/../Order/Events',
     ];
 
     /**

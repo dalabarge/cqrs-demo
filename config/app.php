@@ -169,6 +169,7 @@ return [
          */
         App\Providers\Services::class,
         App\Providers\Events::class,
+        App\Providers\Queries::class,
         App\Providers\Routes::class,
     ],
 

@@ -48,6 +48,16 @@
     "replace": {
         "laravel-zero/foundation": "5.8.*"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../artisansdk/cqrs"
+        },
+        {
+            "type": "path",
+            "url": "../artisansdk/contract"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
